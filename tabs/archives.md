@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: 文章
 type: archives
 # The Archives of posts.
 # v2.0

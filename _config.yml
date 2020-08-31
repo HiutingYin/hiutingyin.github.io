@@ -10,7 +10,7 @@
 
 title: HiutingYin                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: 热爱生活，发现小美好 # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -51,7 +51,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/China
+timezone: Asia/Shanghai
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -117,7 +117,7 @@ defaults:
       location: Post
       breadcrumb:
         -
-          label: Posts
+          label: 文章
           url: /
   -
     scope:
@@ -132,23 +132,23 @@ defaults:
       location: Tag
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
         -
-          label: Tags
+          label: 标签
           url: /tabs/tags/
   -
     scope:
-      path: categories
+      path: 分类
     values:
       tab_active: Categories
       location: Category
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
         -
-          label: Categories
+          label: 分类
           url: /tabs/categories/
   -
     scope:
@@ -158,7 +158,7 @@ defaults:
       dynamic_title: true    # Hide title in mobile screens.
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
 
 
@@ -196,7 +196,6 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - /tags/
     - /posts/
     - 404.html
-    - feed.xml
     - sitemap.xml
     - robots.txt
     - redirects.json
