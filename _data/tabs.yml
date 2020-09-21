@@ -14,13 +14,14 @@
   path: tabs
   url: categories
 -
-  name: 标签
-  icon: "fas fa-tags"
-  path: tabs
-  url: tags
--
+#  name: 标签
+#  icon: "fas fa-tags"
+#  path: tabs
+#  url: tags
+#-
   name: 文章
   path: tabs
+
   url: archives
   icon: "fas fa-archive"
 -

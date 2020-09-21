@@ -83,7 +83,8 @@ theme_mode: dark
 # boolean type, global switch for ToC in posts.
 toc: true
 
-paginate: 10
+paginate: 1
+paginate_path: "page:num"
 
 markdown: kramdown
 
@@ -139,7 +140,7 @@ defaults:
           url: /tabs/tags/
   -
     scope:
-      path: 分类
+      path: categories
     values:
       tab_active: Categories
       location: Category
