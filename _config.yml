@@ -83,7 +83,7 @@ theme_mode: dark
 # boolean type, global switch for ToC in posts.
 toc: true
 
-paginate: 1
+paginate: 3
 paginate_path: "page:num"
 
 markdown: kramdown
@@ -186,6 +186,8 @@ exclude:
   - docs
   - README.md
   - LICENSE
+
+safe: false
 
 sitemap_exclude:  # Sitemap will exclude the following items.
   fuzzy:
